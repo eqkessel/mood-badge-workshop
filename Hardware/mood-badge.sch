@@ -6,36 +6,36 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,19 +53,19 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
-<layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
-<layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="9" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="1" fill="9" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="yes" active="no"/>
+<layer number="59" name="tCarbon" color="7" fill="1" visible="yes" active="no"/>
+<layer number="60" name="bCarbon" color="7" fill="1" visible="yes" active="no"/>
 <layer number="88" name="SimResults" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="89" name="SimProbes" color="9" fill="1" visible="yes" active="yes"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
@@ -3406,6 +3406,204 @@ RETIRED IC-08153 (Also move to special)</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="mood-badge-components">
+<packages>
+<package name="ADA_DOTSTAR_8X8_3444_HOLES">
+<wire x1="25.4" y1="25.4" x2="0" y2="25.4" width="0.127" layer="51"/>
+<wire x1="0" y1="25.4" x2="0" y2="20.32" width="0.127" layer="51"/>
+<wire x1="0" y1="20.32" x2="0" y2="5.08" width="0.127" layer="21"/>
+<wire x1="0" y1="5.08" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="0" y1="0" x2="25.4" y2="0" width="0.127" layer="51"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="5.08" width="0.127" layer="51"/>
+<hole x="-2.54" y="22.86" drill="2.54"/>
+<hole x="27.94" y="22.86" drill="2.54"/>
+<hole x="27.94" y="2.54" drill="2.54"/>
+<hole x="-2.54" y="2.54" drill="2.54"/>
+<wire x1="25.4" y1="5.08" x2="25.4" y2="20.32" width="0.127" layer="51"/>
+<wire x1="25.4" y1="20.32" x2="25.4" y2="25.4" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="25.4" x2="-5.08" y2="20.32" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="20.32" x2="0" y2="20.32" width="0.127" layer="51"/>
+<wire x1="0" y1="5.08" x2="-5.08" y2="5.08" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="5.08" x2="-5.08" y2="0" width="0.127" layer="51"/>
+<wire x1="-5.08" y1="0" x2="0" y2="0" width="0.127" layer="51"/>
+<wire x1="25.4" y1="25.4" x2="30.48" y2="25.4" width="0.127" layer="51"/>
+<wire x1="30.48" y1="25.4" x2="30.48" y2="20.32" width="0.127" layer="51"/>
+<wire x1="30.48" y1="20.32" x2="25.4" y2="20.32" width="0.127" layer="51"/>
+<wire x1="25.4" y1="0" x2="30.48" y2="0" width="0.127" layer="51"/>
+<wire x1="30.48" y1="0" x2="30.48" y2="5.08" width="0.127" layer="51"/>
+<wire x1="30.48" y1="5.08" x2="25.4" y2="5.08" width="0.127" layer="51"/>
+<pad name="COUT" x="2.032" y="1.27" drill="0.9" diameter="2.032" shape="offset" rot="R270"/>
+<pad name="DOUT" x="4.572" y="1.27" drill="0.9" diameter="2.032" shape="offset" rot="R270"/>
+<pad name="GND_OUT" x="7.112" y="1.27" drill="0.9" diameter="2.032" shape="offset" rot="R270"/>
+<pad name="VDD_OUT" x="9.652" y="1.27" drill="0.9" diameter="2.032" shape="offset" rot="R270"/>
+<pad name="VDD_IN" x="15.748" y="24.13" drill="0.9" diameter="2.032" shape="offset" rot="R90"/>
+<pad name="GND_IN" x="18.288" y="24.13" drill="0.9" diameter="2.032" shape="offset" rot="R90"/>
+<pad name="DIN" x="20.828" y="24.13" drill="0.9" diameter="2.032" shape="offset" rot="R90"/>
+<pad name="CIN" x="23.368" y="24.13" drill="0.9" diameter="2.032" shape="offset" rot="R90"/>
+<text x="18.796" y="20.828" size="1.27" layer="21" font="vector">IN</text>
+<text x="4.064" y="3.556" size="1.27" layer="21" font="vector">OUT</text>
+<pad name="VDD" x="9.652" y="14.224" drill="0.9" diameter="2.032" shape="long"/>
+<pad name="GND" x="15.748" y="14.224" drill="0.9" diameter="2.032" shape="long"/>
+<text x="12.7" y="12.192" size="1.27" layer="21" font="vector" align="center">PWR</text>
+<circle x="23.368" y="21.844" radius="0.508" width="0.127" layer="21"/>
+<wire x1="14.224" y1="25.4" x2="0" y2="25.4" width="0.254" layer="21"/>
+<wire x1="0" y1="25.4" x2="-5.08" y2="25.4" width="0.127" layer="51"/>
+<wire x1="0" y1="25.4" x2="0" y2="0" width="0.254" layer="21"/>
+<wire x1="0" y1="0" x2="0.508" y2="0" width="0.254" layer="21"/>
+<wire x1="11.176" y1="0" x2="25.4" y2="0" width="0.254" layer="21"/>
+<wire x1="25.4" y1="0" x2="25.4" y2="25.4" width="0.254" layer="21"/>
+<wire x1="25.4" y1="25.4" x2="24.892" y2="25.4" width="0.254" layer="21"/>
+<text x="0.508" y="25.908" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="24.892" y="-0.508" size="1.27" layer="25" font="vector" align="top-right">&gt;VALUE</text>
+<wire x1="9.652" y1="16.764" x2="9.652" y2="15.748" width="0.127" layer="21"/>
+<wire x1="9.144" y1="16.256" x2="10.16" y2="16.256" width="0.127" layer="21"/>
+<wire x1="15.24" y1="16.256" x2="16.256" y2="16.256" width="0.127" layer="21"/>
+<wire x1="26.416" y1="26.416" x2="26.416" y2="24.892" width="0.254" layer="21"/>
+<wire x1="26.416" y1="26.416" x2="24.892" y2="26.416" width="0.254" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="ADA_DOTSTAR_8X8_3444">
+<pin name="GND" x="0" y="-25.4" length="middle" direction="pwr" rot="R90"/>
+<pin name="VDD" x="0" y="25.4" length="middle" direction="pwr" rot="R270"/>
+<pin name="DOUT" x="25.4" y="-10.16" length="middle" direction="out" rot="R180"/>
+<pin name="COUT" x="25.4" y="10.16" length="middle" direction="out" function="clk" rot="R180"/>
+<pin name="DIN" x="-25.4" y="-10.16" length="middle" direction="in"/>
+<pin name="CIN" x="-25.4" y="10.16" length="middle" direction="in" function="clk"/>
+<wire x1="-20.32" y1="20.32" x2="-20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="-20.32" y1="-20.32" x2="20.32" y2="-20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="-20.32" x2="20.32" y2="20.32" width="0.254" layer="94"/>
+<wire x1="20.32" y1="20.32" x2="-20.32" y2="20.32" width="0.254" layer="94"/>
+<circle x="-10.16" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="10.16" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="0" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="-2.54" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="-5.08" radius="1.016" width="0.254" layer="94"/>
+<circle x="-10.16" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-7.62" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-5.08" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="-2.54" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="0" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="2.54" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="5.08" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<circle x="7.62" y="-7.62" radius="1.016" width="0.254" layer="94"/>
+<text x="7.62" y="-10.16" size="2.54" layer="94" font="vector" align="top-right">RGB MATRIX</text>
+<text x="10.16" y="-7.62" size="1.778" layer="94" font="vector" rot="R90" align="top-left">8x8 APA102</text>
+<text x="-20.32" y="22.86" size="1.778" layer="95" align="top-left">&gt;NAME</text>
+<text x="20.32" y="-22.86" size="1.778" layer="96" rot="R180" align="top-left">&gt;VALUE</text>
+<circle x="-15.24" y="15.24" radius="1.016" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="ADA_DOTSTAR_8X8_3444" prefix="RGB" uservalue="yes">
+<description>1in x 1in Addressable 8x8 RGB LED Matrix - Adafruit Dotstar (APA102-2020 LED) Matrix 3444
+https://www.adafruit.com/product/3444 
+
+Do not eat this LED grid just because it is so colorful and bite-sized! This is the tiniest little LED grid we could make, with 64 full RGB color pixels in a square that is only 1" by 1" square (thats 25.4mm x 25.4mm for you metric-lovers). Best of all, these are little DotStar LEDs, with built in PWM drivers, so you only need two digital I/O pins to get a-glowin'.
+
+But do not be fooled by their small size, each LED is still incredibly, blindingly bright just like the DotStars/NeoPixels you know and love. These are the same integrated LEDs that are used in our new fancy DotStar strips just really small.
+
+Arranged in an 8x8 matrix, each pixel is individually addressable: like NeoPixels, DotStar LEDs have an embedded microcontroller inside the LED. You can set the color/brightness of each LED to 24-bit color (8 bits each red green and blue). Each LED acts like a shift register, reading incoming color data on the input pins, and then shifting the previous color data out on the output pin. By sending a long string of data, you can control an 'infinite' number of LEDs. The PWM is built into each LED-chip so once you set the color you can stop talking to the disk and it will continue to PWM all the LEDs for you.
+
+Wiring it up is easy: there are two 4-pad connection ports on the back. Solder wires to the input port (+5V GND ClockIn and DataIn) and provide 5VDC to the +5V and ground pins, then connect the CIN/DIN pin to your microcontroller. If you have hardware SPI, use the SCK and MOSI pins respectively. You'll also need to make a common ground from the 5V power supply to the microcontroller/Arduino. Since each LED can draw as much as 40mA (thats up to 2.5 Amps per panel if all LEDs are on bright white!) we suggest our 5V 2A power supply if you're going to use full brightness and a lot of white. For most uses, you'll see about 0.5A of current per panel, and you can set the brightness to drop that down. Note that so much current through a small board can make it toasty!
+
+To keep the board small, we did not put any small surface-mount capacitors on the front. Instead, there's a power/ground pad set on the back and a 220uF capacitor that you can solder onto the back for a compact fit. There's also four mounting holes that you can use for attachment, or snap them off with pliers if you want a perfect 1" square.</description>
+<gates>
+<gate name="G$1" symbol="ADA_DOTSTAR_8X8_3444" x="0" y="0"/>
+</gates>
+<devices>
+<device name="8X8_DOTSTAR_3444_HOLES" package="ADA_DOTSTAR_8X8_3444_HOLES">
+<connects>
+<connect gate="G$1" pin="CIN" pad="CIN"/>
+<connect gate="G$1" pin="COUT" pad="COUT"/>
+<connect gate="G$1" pin="DIN" pad="DIN"/>
+<connect gate="G$1" pin="DOUT" pad="DOUT"/>
+<connect gate="G$1" pin="GND" pad="GND GND_IN GND_OUT"/>
+<connect gate="G$1" pin="VDD" pad="VDD VDD_IN VDD_OUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3563,6 +3761,11 @@ RETIRED IC-08153 (Also move to special)</description>
 <part name="GND33" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND34" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND35" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="RGB1" library="mood-badge-components" deviceset="ADA_DOTSTAR_8X8_3444" device="8X8_DOTSTAR_3444_HOLES"/>
+<part name="GND36" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="SUPPLY25" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
+<part name="GND37" library="LinnesLab-Symbols" deviceset="GND" device=""/>
+<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="220u"/>
 </parts>
 <sheets>
 <sheet>
@@ -4122,6 +4325,23 @@ RETIRED IC-08153 (Also move to special)</description>
 <instance part="GND35" gate="G$1" x="180.34" y="129.54" smashed="yes">
 <attribute name="VALUE" x="180.34" y="129.286" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="RGB1" gate="G$1" x="360.68" y="45.72" smashed="yes">
+<attribute name="NAME" x="340.36" y="68.58" size="1.778" layer="95" align="top-left"/>
+<attribute name="VALUE" x="381" y="22.86" size="1.778" layer="96" rot="R180" align="top-left"/>
+</instance>
+<instance part="GND36" gate="G$1" x="360.68" y="15.24" smashed="yes">
+<attribute name="VALUE" x="360.68" y="14.986" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="SUPPLY25" gate="G$1" x="360.68" y="76.2" smashed="yes">
+<attribute name="VALUE" x="360.68" y="78.994" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND37" gate="G$1" x="373.38" y="68.58" smashed="yes">
+<attribute name="VALUE" x="373.38" y="68.326" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="C6" gate="G$1" x="368.3" y="73.66" smashed="yes" rot="R90">
+<attribute name="NAME" x="364.744" y="76.581" size="1.778" layer="95"/>
+<attribute name="VALUE" x="369.824" y="76.581" size="1.778" layer="96"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -4570,6 +4790,17 @@ RETIRED IC-08153 (Also move to special)</description>
 <wire x1="180.34" y1="134.62" x2="180.34" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="G$1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="RGB1" gate="G$1" pin="GND"/>
+<wire x1="360.68" y1="20.32" x2="360.68" y2="17.78" width="0.1524" layer="91"/>
+<pinref part="GND36" gate="G$1" pin="GND"/>
+</segment>
+<segment>
+<wire x1="370.84" y1="73.66" x2="373.38" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="GND37" gate="G$1" pin="GND"/>
+<wire x1="373.38" y1="73.66" x2="373.38" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="C6" gate="G$1" pin="2"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -4762,6 +4993,15 @@ RETIRED IC-08153 (Also move to special)</description>
 <wire x1="215.9" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="139.7" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
+</segment>
+<segment>
+<pinref part="SUPPLY25" gate="G$1" pin="VCC"/>
+<pinref part="RGB1" gate="G$1" pin="VDD"/>
+<wire x1="360.68" y1="76.2" x2="360.68" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="73.66" x2="360.68" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="360.68" y1="73.66" x2="363.22" y2="73.66" width="0.1524" layer="91"/>
+<junction x="360.68" y="73.66"/>
+<pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -5210,6 +5450,11 @@ RETIRED IC-08153 (Also move to special)</description>
 <wire x1="93.98" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
 <label x="96.52" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="RGB1" gate="G$1" pin="CIN"/>
+<wire x1="335.28" y1="55.88" x2="332.74" y2="55.88" width="0.1524" layer="91"/>
+<label x="332.74" y="55.88" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
@@ -5221,6 +5466,11 @@ RETIRED IC-08153 (Also move to special)</description>
 <pinref part="ARDUINO" gate="U$1" pin="D11/PB3(MOSI/OC2)"/>
 <wire x1="93.98" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <label x="96.52" y="17.78" size="1.27" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="RGB1" gate="G$1" pin="DIN"/>
+<wire x1="335.28" y1="35.56" x2="332.74" y2="35.56" width="0.1524" layer="91"/>
+<label x="332.74" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
