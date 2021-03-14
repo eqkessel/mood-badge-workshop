@@ -3624,7 +3624,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
-<part name="CRYSTAL-CA-310" library="LinnesLab-Clocks" deviceset="CRYSTAL-CA-310" device=""/>
+<part name="XTAL" library="LinnesLab-Clocks" deviceset="CRYSTAL-CA-310" device=""/>
 <part name="RESET" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140" device="" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
@@ -3705,13 +3705,13 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="SUPPLY16" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="GND18" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY17" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
-<part name="U$1" library="LinnesLab-Sensors" deviceset="ADPS9008" device=""/>
+<part name="SENS1" library="LinnesLab-Sensors" deviceset="ADPS9008" device=""/>
 <part name="OP1" library="LinnesLab-AnalogIC" deviceset="OP-SINGLE" device="OT" package3d_urn="urn:adsk.eagle:package:18172171/2"/>
 <part name="C15" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
 <part name="C16" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
 <part name="C17" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
 <part name="R18" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="U1" library="SparkFun-IC-Power" deviceset="PAM2401" device="" value="PAM2401"/>
+<part name="BOOST" library="SparkFun-IC-Power" deviceset="PAM2401" device="" value="PAM2401"/>
 <part name="R19" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="3.3M"/>
 <part name="R20" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="12K"/>
 <part name="C18" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="4.7u"/>
@@ -3724,7 +3724,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="C19" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="GND22" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY19" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
-<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="5MM"/>
+<part name="LED1" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
 <part name="R23" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="487"/>
 <part name="GND23" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY20" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
@@ -3746,7 +3746,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="C24" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22u"/>
 <part name="GND29" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND30" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="LED2" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
+<part name="PWR_LED" library="LinnesLab-LED" deviceset="LED" device="0603" package3d_urn="urn:adsk.eagle:package:18593052/2"/>
 <part name="R28" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="4.7K"/>
 <part name="GND31" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="D4" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
@@ -3756,7 +3756,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="SUPPLY24" library="LinnesLab-Symbols" deviceset="VUSB" device=""/>
 <part name="GND7" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND25" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="U$2" library="SparkFun-Retired" deviceset="PCF8575C" device=""/>
+<part name="I/O" library="SparkFun-Retired" deviceset="PCF8575C" device=""/>
 <part name="SUPPLY6" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="GND33" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND34" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -3765,7 +3765,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <part name="GND36" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY25" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="GND37" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="220u"/>
+<part name="C6" library="LinnesLab-Passives" deviceset="CAPACITOR" device="1206" package3d_urn="urn:adsk.eagle:package:23618/2" value="220u"/>
 </parts>
 <sheets>
 <sheet>
@@ -3830,7 +3830,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <instance part="SUPPLY2" gate="G$1" x="15.24" y="27.94" smashed="yes">
 <attribute name="VALUE" x="15.24" y="32.766" size="1.778" layer="96" rot="R180" align="bottom-center"/>
 </instance>
-<instance part="CRYSTAL-CA-310" gate="G$1" x="35.56" y="40.64" smashed="yes">
+<instance part="XTAL" gate="G$1" x="35.56" y="40.64" smashed="yes">
 <attribute name="NAME" x="35.56" y="42.672" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="35.56" y="38.608" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
@@ -4123,7 +4123,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <instance part="SUPPLY17" gate="G$1" x="248.92" y="68.58" smashed="yes">
 <attribute name="VALUE" x="248.92" y="71.374" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="U$1" gate="G$1" x="45.72" y="121.92" smashed="yes">
+<instance part="SENS1" gate="G$1" x="45.72" y="121.92" smashed="yes">
 <attribute name="NAME" x="38.1" y="128.27" size="1.778" layer="95"/>
 <attribute name="VALUE" x="38.1" y="114.3" size="1.778" layer="96"/>
 </instance>
@@ -4151,7 +4151,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <attribute name="NAME" x="92.71" y="115.3414" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="95.25" y="113.538" size="1.778" layer="96"/>
 </instance>
-<instance part="U1" gate="G$1" x="83.82" y="175.26" smashed="yes">
+<instance part="BOOST" gate="G$1" x="83.82" y="175.26" smashed="yes">
 <attribute name="NAME" x="73.66" y="188.468" size="1.778" layer="95"/>
 <attribute name="VALUE" x="73.66" y="160.02" size="1.778" layer="96"/>
 </instance>
@@ -4275,8 +4275,8 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <instance part="GND30" gate="G$1" x="124.46" y="172.72" smashed="yes">
 <attribute name="VALUE" x="124.46" y="172.466" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="LED2" gate="G$1" x="137.16" y="185.42" smashed="yes">
-<attribute name="NAME" x="141.351" y="180.848" size="1.778" layer="95" font="vector" rot="R90"/>
+<instance part="PWR_LED" gate="G$1" x="137.16" y="185.42" smashed="yes">
+<attribute name="NAME" x="141.351" y="178.308" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="139.065" y="180.848" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R28" gate="G$1" x="137.16" y="172.72" smashed="yes" rot="R90">
@@ -4309,7 +4309,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <instance part="GND25" gate="G$1" x="248.92" y="160.02" smashed="yes">
 <attribute name="VALUE" x="248.92" y="159.766" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U$2" gate="G$1" x="200.66" y="127" smashed="yes">
+<instance part="I/O" gate="G$1" x="200.66" y="127" smashed="yes">
 <attribute name="NAME" x="198.12" y="144.78" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="190.5" y="106.68" size="1.778" layer="96"/>
 </instance>
@@ -4377,7 +4377,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <label x="96.52" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="SDA"/>
+<pinref part="I/O" gate="G$1" pin="SDA"/>
 <wire x1="215.9" y1="137.16" x2="218.44" y2="137.16" width="0.1524" layer="91"/>
 <label x="218.44" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4389,7 +4389,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <label x="96.52" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="SCL"/>
+<pinref part="I/O" gate="G$1" pin="SCL"/>
 <wire x1="215.9" y1="134.62" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <label x="218.44" y="134.62" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4679,7 +4679,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <wire x1="116.84" y1="132.08" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="GND"/>
+<pinref part="SENS1" gate="G$1" pin="GND"/>
 <wire x1="33.02" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="119.38" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="C19" gate="G$1" pin="1"/>
@@ -4709,19 +4709,20 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="GND24" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="R25" gate="G$1" pin="2"/>
 <pinref part="GND26" gate="G$1" pin="GND"/>
-<wire x1="58.42" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="165.1" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="C22" gate="G$1" pin="2"/>
 <wire x1="53.34" y1="177.8" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
+<pinref part="R25" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="165.1" x2="53.34" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="165.1" x2="53.34" y2="165.1" width="0.1524" layer="91"/>
+<junction x="53.34" y="165.1"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="AGND"/>
+<pinref part="BOOST" gate="G$1" pin="AGND"/>
 <pinref part="GND27" gate="G$1" pin="GND"/>
 <wire x1="96.52" y1="170.18" x2="99.06" y2="170.18" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="170.18" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="PGND"/>
+<pinref part="BOOST" gate="G$1" pin="PGND"/>
 <wire x1="99.06" y1="165.1" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="165.1" x2="99.06" y2="165.1" width="0.1524" layer="91"/>
 <junction x="99.06" y="165.1"/>
@@ -4768,21 +4769,21 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="GND7" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="GND"/>
+<pinref part="I/O" gate="G$1" pin="GND"/>
 <wire x1="185.42" y1="111.76" x2="182.88" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="111.76" x2="182.88" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND33" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="A0"/>
+<pinref part="I/O" gate="G$1" pin="A0"/>
 <wire x1="215.9" y1="132.08" x2="220.98" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="132.08" x2="220.98" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="GND34" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="A1"/>
+<pinref part="I/O" gate="G$1" pin="A1"/>
 <wire x1="185.42" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="A2"/>
+<pinref part="I/O" gate="G$1" pin="A2"/>
 <wire x1="182.88" y1="137.16" x2="182.88" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="134.62" x2="185.42" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
@@ -4808,7 +4809,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <wire x1="30.48" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
-<pinref part="CRYSTAL-CA-310" gate="G$1" pin="1"/>
+<pinref part="XTAL" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="40.64" x2="30.48" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="33.02" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <junction x="30.48" y="40.64"/>
@@ -4857,21 +4858,6 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <wire x1="134.62" y1="25.4" x2="139.7" y2="25.4" width="0.1524" layer="91"/>
 <wire x1="139.7" y1="25.4" x2="139.7" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="198.12" y1="180.34" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="1"/>
-<wire x1="200.66" y1="180.34" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
-<junction x="200.66" y="180.34"/>
-<wire x1="208.28" y1="180.34" x2="208.28" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="208.28" y1="180.34" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
-<junction x="208.28" y="180.34"/>
-<pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
-<pinref part="CHRG" gate="G$1" pin="VIN"/>
-<wire x1="208.28" y1="180.34" x2="226.06" y2="180.34" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="UP" gate="G$1" pin="A"/>
@@ -4930,7 +4916,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 </segment>
 <segment>
 <pinref part="C19" gate="G$1" pin="2"/>
-<pinref part="U$1" gate="G$1" pin="VCC"/>
+<pinref part="SENS1" gate="G$1" pin="VCC"/>
 <wire x1="25.4" y1="121.92" x2="25.4" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="124.46" x2="30.48" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="124.46" x2="33.02" y2="124.46" width="0.1524" layer="91"/>
@@ -4958,7 +4944,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="SUPPLY21" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="U1" gate="G$1" pin="OUT"/>
+<pinref part="BOOST" gate="G$1" pin="OUT"/>
 <wire x1="96.52" y1="180.34" x2="101.6" y2="180.34" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="180.34" x2="101.6" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="190.5" x2="106.68" y2="190.5" width="0.1524" layer="91"/>
@@ -4974,7 +4960,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <wire x1="124.46" y1="185.42" x2="124.46" y2="190.5" width="0.1524" layer="91"/>
 <junction x="124.46" y="190.5"/>
 <wire x1="124.46" y1="190.5" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="LED2" gate="G$1" pin="A"/>
+<pinref part="PWR_LED" gate="G$1" pin="A"/>
 <wire x1="137.16" y1="190.5" x2="137.16" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="190.5" x2="149.86" y2="190.5" width="0.1524" layer="91"/>
 <junction x="137.16" y="190.5"/>
@@ -4989,7 +4975,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="SUPPLY23" gate="G$1" pin="VCC"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
+<pinref part="I/O" gate="G$1" pin="VCC"/>
 <wire x1="215.9" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="139.7" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="VCC"/>
@@ -5010,7 +4996,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <wire x1="45.72" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="40.64" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
-<pinref part="CRYSTAL-CA-310" gate="G$1" pin="2"/>
+<pinref part="XTAL" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="40.64" x2="38.1" y2="40.64" width="0.1524" layer="91"/>
 <junction x="40.64" y="40.64"/>
 </segment>
@@ -5085,26 +5071,6 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="C8" gate="G$1" pin="1"/>
 <wire x1="264.16" y1="180.34" x2="264.16" y2="175.26" width="0.1524" layer="91"/>
 <junction x="264.16" y="180.34"/>
-</segment>
-<segment>
-<pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="193.04" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
-<pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="63.5" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="68.58" y1="185.42" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
-<junction x="68.58" y="193.04"/>
-<pinref part="R24" gate="G$1" pin="2"/>
-<junction x="63.5" y="193.04"/>
-<pinref part="C22" gate="G$1" pin="1"/>
-<wire x1="53.34" y1="193.04" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="193.04" x2="53.34" y2="195.58" width="0.1524" layer="91"/>
-<junction x="53.34" y="193.04"/>
-<pinref part="SUPPLY22" gate="G$1" pin="VIN"/>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="43.18" y1="190.5" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -5285,7 +5251,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 </net>
 <net name="N$20" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="OUT"/>
+<pinref part="SENS1" gate="G$1" pin="OUT"/>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="58.42" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R20" gate="G$1" pin="1"/>
@@ -5365,7 +5331,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 </net>
 <net name="N$29" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="LX"/>
+<pinref part="BOOST" gate="G$1" pin="LX"/>
 <wire x1="96.52" y1="185.42" x2="99.06" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="185.42" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="193.04" x2="88.9" y2="193.04" width="0.1524" layer="91"/>
@@ -5375,7 +5341,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <net name="ENABLE" class="0">
 <segment>
 <pinref part="R24" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="EN"/>
+<pinref part="BOOST" gate="G$1" pin="EN"/>
 <wire x1="63.5" y1="182.88" x2="68.58" y2="182.88" width="0.1524" layer="91"/>
 <label x="66.04" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="68.58" y1="182.88" x2="71.12" y2="182.88" width="0.1524" layer="91"/>
@@ -5387,13 +5353,13 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <net name="N$27" class="0">
 <segment>
 <pinref part="R25" gate="G$1" pin="1"/>
-<pinref part="U1" gate="G$1" pin="RSET"/>
+<pinref part="BOOST" gate="G$1" pin="RSET"/>
 <wire x1="68.58" y1="165.1" x2="71.12" y2="165.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$30" class="0">
 <segment>
-<pinref part="U1" gate="G$1" pin="FB"/>
+<pinref part="BOOST" gate="G$1" pin="FB"/>
 <pinref part="R26" gate="G$1" pin="2"/>
 <wire x1="96.52" y1="175.26" x2="106.68" y2="175.26" width="0.1524" layer="91"/>
 <pinref part="R27" gate="G$1" pin="1"/>
@@ -5403,7 +5369,7 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="PWR_LED" gate="G$1" pin="C"/>
 <pinref part="R28" gate="G$1" pin="2"/>
 <wire x1="137.16" y1="180.34" x2="137.16" y2="177.8" width="0.1524" layer="91"/>
 </segment>
@@ -5471,6 +5437,43 @@ To keep the board small, we did not put any small surface-mount capacitors on th
 <pinref part="RGB1" gate="G$1" pin="DIN"/>
 <wire x1="335.28" y1="35.56" x2="332.74" y2="35.56" width="0.1524" layer="91"/>
 <label x="332.74" y="35.56" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="VIN" class="0">
+<segment>
+<pinref part="L1" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="193.04" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="193.04" x2="63.5" y2="193.04" width="0.1524" layer="91"/>
+<pinref part="BOOST" gate="G$1" pin="VIN"/>
+<wire x1="63.5" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="185.42" x2="68.58" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="185.42" x2="68.58" y2="193.04" width="0.1524" layer="91"/>
+<junction x="68.58" y="193.04"/>
+<pinref part="R24" gate="G$1" pin="2"/>
+<junction x="63.5" y="193.04"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="193.04" x2="53.34" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="193.04" x2="53.34" y2="195.58" width="0.1524" layer="91"/>
+<junction x="53.34" y="193.04"/>
+<pinref part="SUPPLY22" gate="G$1" pin="VIN"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="43.18" y1="190.5" x2="43.18" y2="193.04" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="193.04" x2="53.34" y2="193.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="198.12" y1="180.34" x2="200.66" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<wire x1="200.66" y1="180.34" x2="200.66" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="200.66" y1="180.34" x2="208.28" y2="180.34" width="0.1524" layer="91"/>
+<junction x="200.66" y="180.34"/>
+<wire x1="208.28" y1="180.34" x2="208.28" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="180.34" x2="208.28" y2="190.5" width="0.1524" layer="91"/>
+<junction x="208.28" y="180.34"/>
+<pinref part="SUPPLY8" gate="G$1" pin="VIN"/>
+<pinref part="CHRG" gate="G$1" pin="VIN"/>
+<wire x1="208.28" y1="180.34" x2="226.06" y2="180.34" width="0.1524" layer="91"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 </nets>
