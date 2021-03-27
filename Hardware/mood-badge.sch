@@ -3723,13 +3723,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </class>
 </classes>
 <parts>
-<part name="ARDUINO" library="LinnesLab-Microcontrollers" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:18162361/2" value="ATMEGA328P_TQFP"/>
+<part name="MICROCONTROLLER" library="LinnesLab-Microcontrollers" deviceset="ATMEGA328P_TQFP" device="" package3d_urn="urn:adsk.eagle:package:18162361/2" value="ATMEGA328P_TQFP"/>
 <part name="GND1" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="C1" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22p"/>
 <part name="C2" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22p"/>
 <part name="GND2" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
-<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="0.1u"/>
+<part name="C3" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="C4" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="2.2u"/>
 <part name="GND3" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
@@ -3737,7 +3737,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RESET" library="LinnesLab-Switches" deviceset="SPST-PTS830GG140" device="" package3d_urn="urn:adsk.eagle:package:18580190/2"/>
 <part name="GND4" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R1" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="10k"/>
-<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="0.1u"/>
+<part name="C5" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="100n"/>
 <part name="SUPPLY3" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="FTDI" library="LinnesLab-Connectors" deviceset="FTDI_DEVICE" device=""/>
 <part name="GND5" library="LinnesLab-Symbols" deviceset="GND" device=""/>
@@ -3847,7 +3847,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="R25" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
 <part name="GND26" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="GND27" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="R26" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100K"/>
+<part name="R26" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="100k"/>
 <part name="GND28" library="LinnesLab-Symbols" deviceset="GND" device=""/>
 <part name="R27" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="750K"/>
 <part name="C23" library="LinnesLab-Passives" deviceset="CAPACITOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661989/2" value="22u"/>
@@ -3904,7 +3904,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="5.08" y="142.24" size="5.08" layer="91">PULSE SENSOR</text>
 </plain>
 <instances>
-<instance part="ARDUINO" gate="U$1" x="71.12" y="40.64" smashed="yes">
+<instance part="MICROCONTROLLER" gate="U$1" x="71.12" y="40.64" smashed="yes">
 <attribute name="NAME" x="50.8" y="74.422" size="1.778" layer="95"/>
 <attribute name="VALUE" x="50.8" y="7.62" size="1.778" layer="96"/>
 </instance>
@@ -4473,21 +4473,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="233.68" y="50.8" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D9/PB1(OC1A)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D9/PB1(OC1A)"/>
 <wire x1="93.98" y1="22.86" x2="96.52" y2="22.86" width="0.1524" layer="91"/>
 <label x="96.52" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PC4(ADC4/SDA)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PC4(ADC4/SDA)"/>
 <wire x1="93.98" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
 <label x="96.52" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SCL" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PC5(ADC5/SCL)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="93.98" y1="58.42" x2="96.52" y2="58.42" width="0.1524" layer="91"/>
 <label x="96.52" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4508,14 +4508,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="233.68" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D7/PD7(AIN1)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D7/PD7(AIN1)"/>
 <wire x1="93.98" y1="30.48" x2="96.52" y2="30.48" width="0.1524" layer="91"/>
 <label x="96.52" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RXD" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D0/PD0(RXD)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D0/PD0(RXD)"/>
 <wire x1="93.98" y1="48.26" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
 <label x="96.52" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4527,7 +4527,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="TXD" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D1/PD1(TXD)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D1/PD1(TXD)"/>
 <wire x1="93.98" y1="45.72" x2="96.52" y2="45.72" width="0.1524" layer="91"/>
 <label x="96.52" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -4551,21 +4551,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="266.7" y1="83.82" x2="269.24" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D4/PD4(XCK/T0)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D4/PD4(XCK/T0)"/>
 <wire x1="93.98" y1="38.1" x2="96.52" y2="38.1" width="0.1524" layer="91"/>
 <label x="96.52" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="AGND"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="AGND"/>
 <wire x1="45.72" y1="20.32" x2="43.18" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="20.32" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
-<pinref part="ARDUINO" gate="U$1" pin="GND@3"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="GND@3"/>
 <wire x1="43.18" y1="17.78" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="17.78" x2="43.18" y2="17.78" width="0.1524" layer="91"/>
 <junction x="43.18" y="17.78"/>
-<pinref part="ARDUINO" gate="U$1" pin="GND@5"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="GND@5"/>
 <wire x1="45.72" y1="15.24" x2="43.18" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="15.24" x2="43.18" y2="10.16" width="0.1524" layer="91"/>
 <junction x="43.18" y="15.24"/>
@@ -4846,7 +4846,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PB6(XTAL1/TOSC1)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PB6(XTAL1/TOSC1)"/>
 <wire x1="30.48" y1="45.72" x2="45.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="45.72" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
@@ -4858,14 +4858,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="VCC" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="AVCC"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="AVCC"/>
 <wire x1="45.72" y1="66.04" x2="43.18" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="66.04" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="ARDUINO" gate="U$1" pin="VCC@4"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="VCC@4"/>
 <wire x1="43.18" y1="63.5" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="45.72" y1="63.5" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="63.5"/>
-<pinref part="ARDUINO" gate="U$1" pin="VCC@6"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="VCC@6"/>
 <wire x1="45.72" y1="60.96" x2="43.18" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="60.96" x2="38.1" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="60.96" x2="38.1" y2="63.5" width="0.1524" layer="91"/>
@@ -5036,7 +5036,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
 <wire x1="45.72" y1="40.64" x2="40.64" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="40.64" y1="40.64" x2="40.64" y2="33.02" width="0.1524" layer="91"/>
@@ -5057,7 +5057,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="25.4" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PC6(/RESET)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PC6(/RESET)"/>
 <wire x1="45.72" y1="71.12" x2="27.94" y2="71.12" width="0.1524" layer="91"/>
 <label x="25.4" y="71.12" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="C5" gate="G$1" pin="2"/>
@@ -5148,7 +5148,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="182.88" y="50.8" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D10/PB2(SS/OC1B)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D10/PB2(SS/OC1B)"/>
 <wire x1="93.98" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
 <label x="96.52" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5177,7 +5177,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="182.88" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D8/PB0(ICP)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D8/PB0(ICP)"/>
 <wire x1="93.98" y1="25.4" x2="96.52" y2="25.4" width="0.1524" layer="91"/>
 <label x="96.52" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5222,7 +5222,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="284.48" y="50.8" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D6/PD6(AIN0)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D6/PD6(AIN0)"/>
 <wire x1="93.98" y1="33.02" x2="96.52" y2="33.02" width="0.1524" layer="91"/>
 <label x="96.52" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5251,7 +5251,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="284.48" y="22.86" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D5/PD5(T1)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D5/PD5(T1)"/>
 <wire x1="93.98" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
 <label x="96.52" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5344,7 +5344,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="121.92" y="121.92" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="PC3(ADC3)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="PC3(ADC3)"/>
 <wire x1="93.98" y1="63.5" x2="96.52" y2="63.5" width="0.1524" layer="91"/>
 <label x="96.52" y="63.5" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5427,7 +5427,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="114.3" y="25.4" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D12/PB4(MISO)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D12/PB4(MISO)"/>
 <wire x1="93.98" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
 <label x="96.52" y="15.24" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5439,7 +5439,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="114.3" y="22.86" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D13/PB5(SCK)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D13/PB5(SCK)"/>
 <wire x1="93.98" y1="12.7" x2="96.52" y2="12.7" width="0.1524" layer="91"/>
 <label x="96.52" y="12.7" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5456,7 +5456,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="137.16" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D11/PB3(MOSI/OC2)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D11/PB3(MOSI/OC2)"/>
 <wire x1="93.98" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 <label x="96.52" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
@@ -5510,7 +5510,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="342.9" y="116.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="ARDUINO" gate="U$1" pin="D3/PD3(INT1)"/>
+<pinref part="MICROCONTROLLER" gate="U$1" pin="D3/PD3(INT1)"/>
 <wire x1="93.98" y1="40.64" x2="96.52" y2="40.64" width="0.1524" layer="91"/>
 <label x="96.52" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
