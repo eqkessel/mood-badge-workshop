@@ -3872,7 +3872,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LS1" library="SparkFun-Electromechanical" deviceset="SPEAKER" device="CVS-1508" value="CVS-1508"/>
 <part name="R29" library="LinnesLab-Passives" deviceset="RESISTOR" device="0603" package3d_urn="urn:adsk.eagle:package:15661944/2" value="180"/>
 <part name="GND38" library="LinnesLab-Symbols" deviceset="GND" device=""/>
-<part name="D6" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
+<part name="D1" library="LinnesLab-DiscreteSemi" deviceset="SCHOTTKY" device="-USC" package3d_urn="urn:adsk.eagle:package:15664784/2"/>
 <part name="SUPPLY26" library="LinnesLab-Symbols" deviceset="VCC" device=""/>
 <part name="Q1" library="LinnesLab-DiscreteSemi" deviceset="NPN" device="-GENERIC" package3d_urn="urn:adsk.eagle:package:15662047/2"/>
 </parts>
@@ -4442,7 +4442,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND38" gate="G$1" x="363.22" y="106.68" smashed="yes">
 <attribute name="VALUE" x="363.22" y="106.426" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="D6" gate="G$1" x="360.68" y="129.54" smashed="yes" rot="R90">
+<instance part="D1" gate="G$1" x="360.68" y="129.54" smashed="yes" rot="R90">
 <attribute name="NAME" x="358.648" y="127" size="1.778" layer="95" font="vector" rot="R90"/>
 <attribute name="VALUE" x="362.712" y="127" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
@@ -5025,7 +5025,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C6" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="D6" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="LS1" gate="G$1" pin="+"/>
 <wire x1="360.68" y1="132.08" x2="363.22" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="363.22" y1="132.08" x2="365.76" y2="132.08" width="0.1524" layer="91"/>
@@ -5518,7 +5518,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$5" class="0">
 <segment>
 <pinref part="LS1" gate="G$1" pin="-"/>
-<pinref part="D6" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="365.76" y1="127" x2="363.22" y2="127" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="C"/>
 <wire x1="363.22" y1="127" x2="360.68" y2="127" width="0.1524" layer="91"/>
